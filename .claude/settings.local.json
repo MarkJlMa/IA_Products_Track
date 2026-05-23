@@ -14,10 +14,29 @@
       "Bash(mv \"CODESYS_V3.5.SP20_Patch1_Release_Notes.md\" \"CODESYS_V3.5.20.1_Release_Notes.md\")",
       "Bash(mv \"CODESYS_V3.5.SP20_Patch2_Release_Notes.md\" \"CODESYS_V3.5.20.2_Release_Notes.md\")",
       "Bash(mv \"CODESYS_V3.5.20.1_Release_Notes.md\" \"CODESYS_V3.5.20.10_Release_Notes.md\")",
-      "Bash(mv \"CODESYS_V3.5.20.2_Release_Notes.md\" \"CODESYS_V3.5.20.20_Release_Notes.md\")"
+      "Bash(mv \"CODESYS_V3.5.20.2_Release_Notes.md\" \"CODESYS_V3.5.20.20_Release_Notes.md\")",
+      "Bash(python3)",
+      "Bash(python -c ' *)",
+      "Bash(/c/Users/stone/AppData/Local/Microsoft/WindowsApps/python -c \"print\\('test'\\)\")",
+      "Bash(where python *)",
+      "Bash(\"C:/Users/stone/AppData/Local/Python/bin/python.exe\" -c \"print\\('test'\\)\")",
+      "Bash(\"C:/Users/stone/AppData/Local/Python/bin/python.exe\")",
+      "Bash(cp /tmp/*.html \"d:/Code/IA_Products_Track/CodeSys/Safety Extension/\")",
+      "Bash(curl -s -L https://xueqiu.com/6237627046/389305972 -H 'User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8')",
+      "Read(//c/Users/stone/.claude/skills/pptx/**)",
+      "Bash(npm install *)",
+      "Bash(node create_ppt.js)",
+      "Bash(python -m markitdown \"磷化工锂化工氟化工行业分析.pptx\")",
+      "Bash(\"C:/Users/stone/AppData/Local/Python/bin/python.exe\" -m markitdown \"d:/Code/IA_Products_Track/磷化工锂化工氟化工行业分析.pptx\")",
+      "Bash(\"C:/Users/stone/AppData/Local/Python/bin/python.exe\" -m pip install \"markitdown[pptx]\" -q)",
+      "Bash(soffice --headless --convert-to pdf \"磷化工锂化工氟化工行业分析.pptx\" --outdir .)",
+      "Bash(pdftoppm -jpeg -r 150 \"磷化工锂化工氟化工行业分析.pdf\" ppt_slide)",
+      "Bash(\"C:/Users/stone/.claude/skills/pptx/scripts/office/soffice.py\" --headless --convert-to pdf \"d:/Code/IA_Products_Track/磷化工锂化工氟化工行业分析.pptx\" --outdir \"d:/Code/IA_Products_Track\")",
+      "Bash(where soffice *)"
     ],
     "additionalDirectories": [
-      "d:\\Code\\IA_Products_Track\\codesys_release_notes"
+      "d:\\Code\\IA_Products_Track\\codesys_release_notes",
+      "\\tmp"
     ]
   }
 }
