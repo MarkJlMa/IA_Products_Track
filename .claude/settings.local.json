@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.codesys.com)",
+      "Bash(curl -s -L \"https://www.codesys.com/ecosystem/release-lifecycle/releases-updates/development-system-v3/\")",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/download_codesys.sh)",
+      "Bash(/tmp/download_codesys.sh)",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python)",
+      "Bash(rm \"d:/Code/IA_Products_Track/codesys_release_notes/\"*.html && ls -la \"d:/Code/IA_Products_Track/codesys_release_notes/\")",
+      "Bash(mv \"CODESYS_V3.5.SP20_Release_Notes.md\" \"CODESYS_V3.5.20.0_Release_Notes.md\")",
+      "Bash(mv \"CODESYS_V3.5.SP20_Patch1_Release_Notes.md\" \"CODESYS_V3.5.20.1_Release_Notes.md\")",
+      "Bash(mv \"CODESYS_V3.5.SP20_Patch2_Release_Notes.md\" \"CODESYS_V3.5.20.2_Release_Notes.md\")",
+      "Bash(mv \"CODESYS_V3.5.20.1_Release_Notes.md\" \"CODESYS_V3.5.20.10_Release_Notes.md\")",
+      "Bash(mv \"CODESYS_V3.5.20.2_Release_Notes.md\" \"CODESYS_V3.5.20.20_Release_Notes.md\")"
+    ],
+    "additionalDirectories": [
+      "d:\\Code\\IA_Products_Track\\codesys_release_notes"
+    ]
+  }
+}
